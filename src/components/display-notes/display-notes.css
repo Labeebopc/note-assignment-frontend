@@ -1,0 +1,31 @@
+
+.table{
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.table-heading{
+text-align: center;
+}
+
+.table-note-action-btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.table-note-action-btn :first-child{
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #58c758;
+    border: none;
+}
+
+.table-note-action-btn :last-child{
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e93d3d;
+    border: none;
+}

@@ -1,0 +1,27 @@
+.form-section {
+    border: 1px solid grey;
+    padding: 40px;
+    width: 500px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 7px;
+}
+
+.form-section input {
+    height: 35px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid grey;
+}
+
+.form-section :last-child {
+    width: 150px;
+    border-radius: 7px;
+    border: none;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid grey;
+}

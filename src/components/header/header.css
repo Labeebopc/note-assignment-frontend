@@ -1,0 +1,29 @@
+.header-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-heading{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin: auto;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.add-note-btn-div{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px
+}
+
+.add-note-btn-div button{
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: none;
+    background-color: #d78a2e;
+    cursor: pointer;
+}
